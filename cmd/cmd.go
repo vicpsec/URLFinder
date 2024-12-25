@@ -3,11 +3,12 @@ package cmd
 import (
 	"flag"
 	"fmt"
-	"github.com/gookit/color"
 	"os"
+
+	"github.com/gookit/color"
 )
 
-var Update = "2023.9.9"
+var Update = "2024.12.24"
 var XUpdate string
 
 var (
