@@ -385,7 +385,7 @@ func GetUserAgent() string {
 
 func GetUpdate() {
 
-	url := fmt.Sprintf("https://api.github.com/repos/vicpsec/URLFinder/releases/latest")
+	url := fmt.Sprintf("https://api.github.com/repos/pingc0y/URLFinder/releases/latest")
 	client := &http.Client{
 		Timeout: time.Second * 2,
 		Transport: &http.Transport{
