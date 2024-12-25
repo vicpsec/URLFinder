@@ -4,9 +4,6 @@ import (
 	"crypto/tls"
 	"encoding/json"
 	"fmt"
-	"github.com/pingc0y/URLFinder/cmd"
-	"github.com/pingc0y/URLFinder/config"
-	"github.com/pingc0y/URLFinder/mode"
 	"io"
 	"math/rand"
 	"net/http"
@@ -16,6 +13,10 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/pingc0y/URLFinder/cmd"
+	"github.com/pingc0y/URLFinder/config"
+	"github.com/pingc0y/URLFinder/mode"
 )
 
 // MergeArray 合并数组
@@ -384,7 +385,7 @@ func GetUserAgent() string {
 
 func GetUpdate() {
 
-	url := fmt.Sprintf("https://api.github.com/repos/pingc0y/URLFinder/releases/latest")
+	url := fmt.Sprintf("https://api.github.com/repos/vicpsec/URLFinder/releases/latest")
 	client := &http.Client{
 		Timeout: time.Second * 2,
 		Transport: &http.Transport{

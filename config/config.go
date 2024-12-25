@@ -2,12 +2,13 @@ package config
 
 import (
 	"fmt"
-	"github.com/pingc0y/URLFinder/cmd"
-	"github.com/pingc0y/URLFinder/mode"
-	"gopkg.in/yaml.v3"
 	"os"
 	"strings"
 	"sync"
+
+	"github.com/vicpsec/URLFinder/cmd"
+	"github.com/vicpsec/URLFinder/mode"
+	"gopkg.in/yaml.v3"
 )
 
 var Conf mode.Config
