@@ -3,15 +3,16 @@ package crawler
 import (
 	"compress/gzip"
 	"fmt"
-	"github.com/pingc0y/URLFinder/cmd"
-	"github.com/pingc0y/URLFinder/config"
-	"github.com/pingc0y/URLFinder/result"
-	"github.com/pingc0y/URLFinder/util"
 	"io"
 	"net/http"
 	"net/url"
 	"regexp"
 	"strings"
+
+	"github.com/vicpsec/URLFinder/cmd"
+	"github.com/vicpsec/URLFinder/config"
+	"github.com/vicpsec/URLFinder/result"
+	"github.com/vicpsec/URLFinder/util"
 )
 
 // 蜘蛛抓取页面内容

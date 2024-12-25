@@ -2,11 +2,11 @@ package crawler
 
 import (
 	"fmt"
-	"github.com/pingc0y/URLFinder/cmd"
-	"github.com/pingc0y/URLFinder/config"
-	"github.com/pingc0y/URLFinder/mode"
-	"github.com/pingc0y/URLFinder/result"
-	"github.com/pingc0y/URLFinder/util"
+	"github.com/vicpsec/URLFinder/cmd"
+	"github.com/vicpsec/URLFinder/config"
+	"github.com/vicpsec/URLFinder/mode"
+	"github.com/vicpsec/URLFinder/result"
+	"github.com/vicpsec/URLFinder/util"
 	"io"
 	"net/http"
 	"regexp"

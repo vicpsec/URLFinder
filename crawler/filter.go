@@ -1,7 +1,7 @@
 package crawler
 
 import (
-	"github.com/pingc0y/URLFinder/config"
+	"github.com/vicpsec/URLFinder/config"
 	"net/url"
 	"regexp"
 	"strings"

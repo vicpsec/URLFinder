@@ -1,10 +1,10 @@
 package crawler
 
 import (
-	"github.com/pingc0y/URLFinder/config"
-	"github.com/pingc0y/URLFinder/mode"
-	"github.com/pingc0y/URLFinder/result"
-	"github.com/pingc0y/URLFinder/util"
+	"github.com/vicpsec/URLFinder/config"
+	"github.com/vicpsec/URLFinder/mode"
+	"github.com/vicpsec/URLFinder/result"
+	"github.com/vicpsec/URLFinder/util"
 	"regexp"
 )
 
