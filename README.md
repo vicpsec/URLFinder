@@ -4,10 +4,6 @@ URLFinder是一款快速、全面、易用的页面信息提取工具
 
 用于分析页面中的js与url,查找隐藏在其中的敏感信息或未授权api接口
 
-大致执行流程:
-
-<img src="https://github.com/pingc0y/URLFinder/raw/master/img/process.png" width="85%"  />
-
 
 
 有什么需求或bug欢迎各位师傅提交lssues
@@ -58,14 +54,6 @@ URLFinder.exe -s all -m 3 -ff url.txt -o .
         2  2级目录组合fuzz
         3  3级目录组合fuzz（适合少量链接使用）
 ```
-## 使用截图
-
-[![0.jpg](https://github.com/pingc0y/URLFinder/raw/master/img/0.jpg)](https://github.com/pingc0y/URLFinder/raw/master/img/0.jpg)   
-[![1.jpg](https://github.com/pingc0y/URLFinder/raw/master/img/1.jpg)](https://github.com/pingc0y/URLFinder/raw/master/img/1.jpg)  
-[![2.jpg](https://github.com/pingc0y/URLFinder/raw/master/img/2.jpg)](https://github.com/pingc0y/URLFinder/raw/master/img/2.jpg)  
-[![3.jpg](https://github.com/pingc0y/URLFinder/raw/master/img/3.jpg)](https://github.com/pingc0y/URLFinder/raw/master/img/3.jpg)  
-[![4.jpg](https://github.com/pingc0y/URLFinder/raw/master/img/4.jpg)](https://github.com/pingc0y/URLFinder/raw/master/img/4.jpg)  
-[![5.jpg](https://github.com/pingc0y/URLFinder/raw/master/img/5.jpg)](https://github.com/pingc0y/URLFinder/raw/master/img/5.jpg)
 
 ## 部分说明
 
