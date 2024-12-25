@@ -4,7 +4,6 @@ go 1.23.4
 
 require (
 	github.com/gookit/color v1.5.4
-	github.com/pingc0y/URLFinder v0.0.0-20230909140145-e1c0334f72e0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
