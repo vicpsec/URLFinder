@@ -61,6 +61,6 @@ Options:
 }
 
 func Parse() {
-	color.LightCyan.Printf("         __   __   ___ _           _           \n /\\ /\\  /__\\ / /  / __(_)_ __   __| | ___ _ __ \n/ / \\ \\/ \\/// /  / _\\ | | '_ \\ / _` |/ _ \\ '__|\n\\ \\_/ / _  \\ /___ /   | | | | | (_| |  __/ |   \n \\___/\\/ \\_\\____\\/    |_|_| |_|\\__,_|\\___|_|     \n\nBy: pingc0y\nUpdate: %s | %s\nGithub: https://github.com/pingc0y/URLFinder \n\n", Update, XUpdate)
+	color.LightCyan.Printf("         __   __   ___ _           _           \n /\\ /\\  /__\\ / /  / __(_)_ __   __| | ___ _ __ \n/ / \\ \\/ \\/// /  / _\\ | | '_ \\ / _` |/ _ \\ '__|\n\\ \\_/ / _  \\ /___ /   | | | | | (_| |  __/ |   \n \\___/\\/ \\_\\____\\/    |_|_| |_|\\__,_|\\___|_|     \n\nBy: vicpsec\nUpdate: %s | %s\nGithub: https://github.com/vicpsec/URLFinder \n\n", Update, XUpdate)
 	flag.Parse()
 }

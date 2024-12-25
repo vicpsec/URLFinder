@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pingc0y/URLFinder/cmd"
-	"github.com/pingc0y/URLFinder/config"
-	"github.com/pingc0y/URLFinder/mode"
+	"github.com/vicpsec/URLFinder/cmd"
+	"github.com/vicpsec/URLFinder/config"
+	"github.com/vicpsec/URLFinder/mode"
 )
 
 // MergeArray 合并数组
